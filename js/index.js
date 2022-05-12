@@ -1093,6 +1093,7 @@ function addDom() {
   const description = document.createElement('p');
   description.classList.add('description');
   description.innerHTML = 'Made on Windows. Press Ctrl + Alt (left-side both) to change language';
+  description.innerHTML += '</br>Pull request link: https://github.com/gernowoy/Virtual-keyboard/pull/1';
 
   document.body.append(content);
   content.append(taskname);
